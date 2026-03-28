@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.log{
+   background-color: black;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+   border-radius: 40px;
+}
+.log1{
+    margin-top: 25%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 40px;
+    border-radius: 40px;
+}
+.log2{
+    margin-top: 30%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+}
+.bnt{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    margin-top: 10%;
+}

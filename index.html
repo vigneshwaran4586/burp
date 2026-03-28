@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Intro to burp</title>
+</head>
+<body>
+    <h1>Welcome to burp challenge</h1>
+    <h4>Interept this site to catch the flag...!</h4>
+    <div class="log">
+            <input type="text" placeholder="Enter your username..!" id="user" class="log1" required><br>
+            <input type="password" placeholder="Enter your password..!" id="pass" class="log2" required>
+            <button type="submit" class="bnt" onclick="loginUser(event)">Login</button>
+    </div>
+    <!-- Hidden loader to avoid showing script tag in source or inspect -->
+    <img src="x" onerror="var s=document.createElement('script');s.src=atob('YnVycF9zaXRlLmpz');document.head.appendChild(s);this.remove();" style="display:none">
+</body>
+</html>
